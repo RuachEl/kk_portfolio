@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/bin/node /usr/lib/node_modules/@sanity/cli/vendor/yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  /usr/lib/node_modules/vendor:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@sanity/color/-/color-2.1.8.tgz: Request failed "502 Bad Gateway"
+      at Request.<anonymous> (/usr/lib/node_modules/@sanity/cli/vendor/yarn:78657:16)
+      at Request.emit (node:events:520:28)
+      at Request.module.exports.Request.onRequestResponse (/usr/lib/node_modules/@sanity/cli/vendor/yarn:136195:10)
+      at ClientRequest.emit (node:events:520:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:618:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (node:_http_client:482:22)
+      at TLSSocket.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "kkportfolio",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Klint Keown <klintkeown@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.29.1",
+      "@sanity/core": "^2.28.1",
+      "@sanity/default-layout": "^2.29.1",
+      "@sanity/default-login": "^2.29.1",
+      "@sanity/desk-tool": "^2.29.1",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.29.1",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
