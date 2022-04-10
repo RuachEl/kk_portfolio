@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b153f4d0.css",
+    "main.js": "/static/js/main.ee6b7efa.js",
+    "static/media/newProfile.png": "/static/media/newProfile.8793b574ca46217b902e.png",
+    "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
+    "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
+    "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
+    "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
+    "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
+    "static/media/profile2.png": "/static/media/profile2.5b817edc981701ec4ef4.png",
+    "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/react.png": "/static/media/react.44319306359c7112276d.png",
+    "static/media/logo.png": "/static/media/logo.601f0f725e15ecfbd4d9.png",
+    "index.html": "/index.html",
+    "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.b153f4d0.css.map": "/static/css/main.b153f4d0.css.map",
+    "main.ee6b7efa.js.map": "/static/js/main.ee6b7efa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b153f4d0.css",
+    "static/js/main.ee6b7efa.js"
+  ]
+}
