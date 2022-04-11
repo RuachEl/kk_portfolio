@@ -18,7 +18,7 @@ export default{
             title:'Icon',
             type: 'image',
             options: {
-              hotspot: true,
+                hotspot: true,
             },
         },
         
